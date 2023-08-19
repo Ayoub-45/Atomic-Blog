@@ -7,7 +7,7 @@ function SlowComponent() {
     <ul>
       {words.map((word, i) => (
         <li key={i}>
-          {i}: {word}
+          {i+1}: {word}
         </li>
       ))}
     </ul>
